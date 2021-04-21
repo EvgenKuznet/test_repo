@@ -1,2 +1,7 @@
 hello world
+<<<<<<< HEAD
 another line
+=======
+another branch line
+>>>>>>> cat
+remote rep demo
