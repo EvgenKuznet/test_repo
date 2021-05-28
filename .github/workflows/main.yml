@@ -11,4 +11,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: pwd
+    - run: ls -la
     - run: npx write-good index.md
