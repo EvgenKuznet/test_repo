@@ -12,4 +12,4 @@ jobs:
     steps:
     - run: pwd
     - run: ls -la
-    - run: npx write-good index.md
+    - run: less index.md
