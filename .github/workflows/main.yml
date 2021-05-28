@@ -10,7 +10,5 @@ jobs:
     name: stylecheck
     runs-on: ubuntu-latest
     steps:
-    - name: Build image
-      uses: btford/write-good@master
-    - name: Run stylecheker
-      run: write-good *.md
+    - run: npm install write-good
+    - run: write-good *.md
