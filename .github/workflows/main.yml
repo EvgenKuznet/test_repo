@@ -19,3 +19,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: btford/write-good@master
+    - run: btford/write-good@master main.yml
