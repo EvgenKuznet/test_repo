@@ -10,7 +10,4 @@ jobs:
     name: stylecheck
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: btford/write-good@master
-    - run: npm install write-good
-    - run: write-good *.md
+    - run: npx write-good *.md
